@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/e309ca79ac.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <header id="header">
+        <div class="logo">
+          <a href="#">
+            <img
+              id="header-img"
+              src="./shoes-logo.png"
+              alt="Logo Shoes Premium"
+            />
+          </a>
+        </div>
+        <nav id="nav-bar">
+          <ul>
+            <li><a class="nav-link" href="#features">Features</a></li>
+            <li><a class="nav-link" href="#about_it">About It</a></li>
+            <li><a class="nav-link" href="#pricing">Pricing</a></li>
+            <li><a class="nav-link" href="#contact">Contact Us</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section id="jumbotron">
+        <img src="./shoes-jumbotron.jpg" alt="Images Jumbotron" />
+        <div class="jumbotron-content">
+          <h1>Premium Shoes</h1>
+          <p>Comfortable and Elegant</p>
+        </div>
+      </section>
+      <div class="container">
+        <section id="features">
+          <article class="features-items">
+            <div class="features-icon">
+              <i class="fas fa-medal"></i>
+            </div>
+            <div class="features-content">
+              <h2>Exclusive Shoes</h2>
+              <p>
+                Our company provides shoes that are very exclusive and very
+                comfortable when used.
+              </p>
+            </div>
+            <div class="features-empty"></div>
+          </article>
+          <article class="features-items features-two">
+            <div class="features-icon">
+              <i class="fas fa-palette"></i>
+            </div>
+            <div class="features-content">
+              <h2>Elegant Design</h2>
+              <p>
+                The shoes have a very elegant design and color combination which
+                can attract attention.
+              </p>
+            </div>
+            <div class="features-empty"></div>
+          </article>
+          <article class="features-items">
+            <div class="features-icon">
+              <i class="fas fa-stopwatch-20"></i>
+            </div>
+            <div class="features-content">
+              <h2>Limited Shoes</h2>
+              <p>
+                Each shoe product is only made a few items so shoes very
+                limited. Limited shoes will look luxurious because only some
+                people have it.
+              </p>
+            </div>
+            <div class="features-empty"></div>
+          </article>
+        </section>
+        <section id="about_it">
+          <iframe
+          id="video"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/oX3E0xgh7jg"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </section>
+        <section id="pricing">
+          <article class="product">
+            <div class="product-name">
+              <h3>Machine Sports V2</h3>
+            </div>
+            <div class="product-price">
+              <p>$300</p>
+            </div>
+            <ul>
+              <li>Sports</li>
+              <li>Red Maroon</li>
+              <li>42</li>
+            </ul>
+            <button class="btn">Buy</button>
+          </article>
+          <article class="product">
+            <div class="product-name">
+              <h3>Flawless Casual Nz6</h3>
+            </div>
+            <div class="product-price">
+              <p>$500</p>
+            </div>
+            <ul>
+              <li>Fashion</li>
+              <li>Gold</li>
+              <li>41</li>
+            </ul>
+            <button class="btn">Buy</button>
+          </article>
+          <article class="product">
+            <div class="product-name">
+              <h3>Natural Kids Vz4</h3>
+            </div>
+            <div class="product-price">
+              <p>$100</p>
+            </div>
+            <ul>
+              <li>Kids</li>
+              <li>Blue Sky</li>
+              <li>21</li>
+            </ul>
+            <button class="btn">Buy</button>
+          </article>
+        </section>
+        <section id="contact">
+          <h2>Contact Premium Shoes</h2>
+          <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input
+              name="email"
+              id="email"
+              type="email"
+              placeholder="Enter your email"
+              required
+            />
+            <input id="submit" class="btn" type="submit" value="Send Email" />
+          </form>
+        </section>
+      </div>
+      <footer>
+        <ul>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+        </ul>
+        <p>Copyright &copy; 2022 Abastian Dwi Saputra. All Right Reserved.</p>
+      </footer>
+    </div>
+  </body>
+</html>
